@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+  font-size:62.5%;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+body{
+  margin: 0rem
+}
+.center{
+  text-align: center;
+}
+
+input{
+  width: 95%;
+  padding: 1rem;
+  border: solid #fcbf49;
+  border-radius: .5rem;
+  display: block;
+  margin: 0 auto;
+}
+h3{
+  font-size: 3rem;
+}
+

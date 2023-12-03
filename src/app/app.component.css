@@ -1,0 +1,27 @@
+nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #007FFF;
+  margin: 0;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.active{
+  color: gold;
+}
